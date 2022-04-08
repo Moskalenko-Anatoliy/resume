@@ -36,7 +36,7 @@ body {
 }
 
 .bg-yellow {
-  background-color: yellow;
+  background-color: lightyellow;
 }
 
 .bg-red {
@@ -44,7 +44,7 @@ body {
 }
 
 .bg-green {
-  background-color:greenyellow
+  background-color:lightgreen;
 }
 
 .bg-crimson {
@@ -95,8 +95,7 @@ a:hover {
 
 }
 
-.list li {
-  color: #86898f;
+.list li {  
   margin-bottom: 20px;
 }
 
@@ -149,6 +148,10 @@ a:hover {
   font-family: inherit;
   background: transparent;
   color: black;  
+}
+
+.form-group textarea {
+  resize: none;  
 }
 
 .form-row {
